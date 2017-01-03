@@ -1,6 +1,23 @@
 {
   "name": "urls-router",
-  "version": "0.0.1",
-  "private": true,
-  "main" : "./lib/index.js"
+  "version": "0.1.1",
+  "description": "express router plugin.",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/977277822/urls-router.git"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "plugin"
+  ],
+  "author": "zhang xiao bin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/977277822/urls-router/issues"
+  },
+  "main": "./lib/index.js"
 }
