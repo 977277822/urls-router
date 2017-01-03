@@ -10,6 +10,12 @@
                     action: test.index,
                     type: "get"
                 }]
+            },
+            filter: {
+                "/api": function (req, res, next) {
+                    console.log("api filter")
+                    next()
+                }
             }
         };
     test_router.js 示例
