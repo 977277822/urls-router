@@ -22,6 +22,9 @@
             }
         }
         
-    
+    app.js 示例
+        var urlsRouter = require('urls-router');
+        var app = express();
+        urlsRouter(app,path.join(__dirname, 'urls_router.js'))
     
     其他使用方式与原生express无差别
